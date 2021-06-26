@@ -42,6 +42,8 @@ As there are large number of data for different set of stocks during many years,
 	
 ## Challenges
 
+Though we have done the work correctly and got the output which Steve needs, there are few challenges which we has to be considered.
+
 * Finding the correct way to automate the whole process and getting the result with a minimum run time is little challenging. But this helps us to try doing the things in many ways, which results in better solution. 
 
 * We have to make sure the data is sorted in Ascending order based on the Stocks (Ticker) and given in the same order inside VB Script as well.
@@ -54,6 +56,8 @@ Below is the Macro enabled excel worksheet for Stock Analysis.
 
 
 #### The performance between 2017 and 2018
+
+Steve is interested in two years of Stock datas. Below are the performance result of both years:
 
 * We have compared the same set of Stocks for the Year 2017 and 2018 with Volumes, Open & Close Values etc.
 
@@ -69,6 +73,8 @@ Below is the Macro enabled excel worksheet for Stock Analysis.
 
 
 #### The original and the refactored script
+
+Below are the changes made in the refactored script compare to the Original one.
 
 * In the original code we are reading the entire data again and again to calculate the Volumes and Return values for all the Stocks, which takes lot of Elapse time.
 
